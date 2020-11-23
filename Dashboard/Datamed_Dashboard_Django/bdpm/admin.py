@@ -3,6 +3,7 @@ from django.contrib import admin
 # Register your models here.
 # vim: set fileencoding=utf-8 :
 from django.contrib import admin
+import nested_admin
 
 from . import models
 
@@ -20,77 +21,67 @@ class CompositionTypeAdmin(admin.ModelAdmin):
     search_fields = ('name',)
 
 
-class SMRInlineAdmin(admin.TabularInline):
+class SMRInlineAdmin(nested_admin.NestedTabularInline):
     model = models.SMR
+    extra = 0
 
-
-class ASMRInlineAdmin(admin.TabularInline):
+class ASMRInlineAdmin(nested_admin.NestedTabularInline):
     model = models.ASMR
+    extra = 0
 
 
-class SpecialtyAdmin(admin.ModelAdmin):
-    inlines = [SMRInlineAdmin, ASMRInlineAdmin]
+class PresentationsInlineAdmin(nested_admin.NestedStackedInline):
+    model = models.Presentations
+    extra = 0
+
+
+# through : to use through model in admin via direct inline
+class ComponentInlineAdmin(nested_admin.NestedTabularInline):
+    model = models.Composition.components.through
+    extra = 0
+
+
+class CompositionAdmin(nested_admin.NestedModelAdmin):
+    model = models.Composition
+    inlines = [ComponentInlineAdmin]
+
+
+class CompositionInlineAdmin(nested_admin.NestedStackedInline):
+    model = models.Composition
+    inlines = [ComponentInlineAdmin]
+    extra = 0
+
+
+class SpecialtyAdmin(nested_admin.NestedModelAdmin):
+    inlines = [SMRInlineAdmin, ASMRInlineAdmin, PresentationsInlineAdmin, CompositionInlineAdmin]
     list_display = (
         'id',
         'name',
         'bdpm_id',
         'cis_code',
         'authorization_holder',
-        'composition_quantity',
-        'composition_type',
     )
     list_filter = (
-        'composition_type',
         'id',
         'name',
         'bdpm_id',
         'cis_code',
         'authorization_holder',
-        'composition_quantity',
-        'composition_type',
     )
-    raw_id_fields = ('composition_components',)
     search_fields = ('name',)
 
 
 class ComponentRelationAdmin(admin.ModelAdmin):
 
-    list_display = ('id', 'component', 'specialty', 'dosage')
+    list_display = ('id', 'component', 'dosage')
     list_filter = (
         'component',
-        'specialty',
         'id',
-        'component',
-        'specialty',
         'dosage',
     )
 
 
-class PresentationsAdmin(admin.ModelAdmin):
 
-    list_display = (
-        'id',
-        'name',
-        'cip_7',
-        'cip_13',
-        'marketing_start_date',
-        'marketing_stop_date',
-        'price',
-        'refund_rate',
-    )
-    list_filter = (
-        'marketing_start_date',
-        'marketing_stop_date',
-        'id',
-        'name',
-        'cip_7',
-        'cip_13',
-        'marketing_start_date',
-        'marketing_stop_date',
-        'price',
-        'refund_rate',
-    )
-    search_fields = ('name',)
 
 
 def _register(model, admin_class):
@@ -101,4 +92,5 @@ _register(models.Component, ComponentAdmin)
 _register(models.CompositionType, CompositionTypeAdmin)
 _register(models.Specialty, SpecialtyAdmin)
 _register(models.ComponentRelation, ComponentRelationAdmin)
-_register(models.Presentations, PresentationsAdmin)
+_register(models.Composition, CompositionAdmin)
+#_register(models.Presentations, PresentationsAdmin)

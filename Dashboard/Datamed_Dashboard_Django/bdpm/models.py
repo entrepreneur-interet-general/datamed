@@ -3,16 +3,11 @@ from django.db import models
 # Create your models here.
 
 
-class Component(models.Model):
-    name = models.CharField(max_length=1024)
-
-    class Meta:
-        verbose_name = "Composant"
-        verbose_name_plural = "Composants"
-
-
 class CompositionType(models.Model):
-    name = models.CharField(max_length=512)
+    name = models.CharField(max_length=512, unique=True)
+
+    def __str__(self):
+        return self.name
 
     class Meta:
         verbose_name = "Type de de composition"
@@ -24,18 +19,31 @@ class Specialty(models.Model):
     bdpm_id = models.IntegerField()
     cis_code = models.IntegerField()
     authorization_holder = models.CharField(max_length=512)
-    composition_components = models.ManyToManyField(Component, through='ComponentRelation')
-    composition_quantity = models.CharField(max_length=1024)
-    composition_type = models.ForeignKey(CompositionType, on_delete=models.PROTECT)
 
     class Meta:
         verbose_name = "Spécialité"
         verbose_name_plural = "Specialités"
 
 
+class Component(models.Model):
+    name = models.CharField(max_length=1024)
+
+    class Meta:
+        verbose_name = "Composant"
+        verbose_name_plural = "Composants"
+
+
+# Med contains multiple compositions if different type of compo in same med (ex : dolirhume jour / dolirhume nuit)
+class Composition(models.Model):
+    components = models.ManyToManyField(Component, through='ComponentRelation')
+    quantity = models.CharField(max_length=1024)
+    type = models.ForeignKey(CompositionType, on_delete=models.PROTECT)
+    specialty = models.ForeignKey(Specialty, on_delete=models.PROTECT)
+
+
 class ComponentRelation(models.Model):
     component = models.ForeignKey(Component, on_delete=models.PROTECT)
-    specialty = models.ForeignKey(Specialty, on_delete=models.CASCADE)
+    composition = models.ForeignKey(Composition, on_delete=models.CASCADE)
     dosage = models.CharField(max_length=512)
 
 
@@ -68,7 +76,7 @@ class Presentations(models.Model):
     cip_7 = models.IntegerField()
     cip_13 = models.IntegerField()
     marketing_start_date = models.DateField()
-    marketing_stop_date = models.DateField()
+    marketing_stop_date = models.DateField(blank=True, null=True)
     price = models.IntegerField()
     refund_rate = models.IntegerField()
     specialty = models.ForeignKey(Specialty, on_delete=models.CASCADE)
