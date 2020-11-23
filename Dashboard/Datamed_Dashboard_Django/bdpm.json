@@ -1,0 +1,57 @@
+[
+  {
+	"model": "bdpm.compositiontype",
+	"pk": 1,
+	"fields": {
+	  "name": "Solution"
+	}
+  },
+  {
+	"model": "bdpm.specialty",
+	"pk": 1,
+	"fields": {
+	  "name": "Doliprane",
+	  "bdpm_id": 12,
+	  "cis_code": 22334455,
+	  "authorization_holder": "Mylan",
+	  "composition_quantity": "1 ml",
+	  "composition_type": 1
+	}
+  },
+  {
+	"model": "bdpm.smr",
+	"pk": 1,
+	"fields": {
+	  "abstract": "avis smr 1 abstrave",
+	  "advice": "avis smr 1 advice",
+	  "reason": "avis smr 1 reason",
+	  "value": "avis smr 1 value",
+	  "specialty": 1
+	}
+  },
+  {
+	"model": "bdpm.asmr",
+	"pk": 1,
+	"fields": {
+	  "abstract": "avis asmr 1 abstract",
+	  "advice": "avis asmr 1 advice",
+	  "reason": "avis asmr 1 reason",
+	  "value": "avis asmr 1 value",
+	  "specialty": 1
+	}
+  },
+  {
+	"model": "bdpm.presentations",
+	"pk": 1,
+	"fields": {
+	  "name": "pr�sentation 1 doliprane",
+	  "cip_7": 1231233,
+	  "cip_13": 1231231231234,
+	  "marketing_start_date": "2020-09-01",
+	  "marketing_stop_date": null,
+	  "price": 103,
+	  "refund_rate": 20,
+	  "specialty": 1
+	}
+  }
+]

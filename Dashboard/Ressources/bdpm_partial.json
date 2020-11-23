@@ -1,0 +1,1545 @@
+[
+  {
+    "authorization_holder": "ACCORD HEALTHCARE Limited", 
+    "cis_code": "6 000 228 3", 
+    "composition": [
+      {
+        "components": {
+          "anastrozole": "1,00 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "ANASTROZOLE 1 mg - ARIMIDEX 1 mg, comprimé pelliculé."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60002283, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "494 972-9", 
+          "34009 494 972 9 4"
+        ], 
+        "marketing_start_date": "2011-03-16", 
+        "marketing_stop_date": null, 
+        "price": 6323, 
+        "refund_rate": 100, 
+        "title": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 30 comprimé(s)"
+      }, 
+      {
+        "cip_codes": [
+          "494 977-0", 
+          "34009 494 977 0 6"
+        ], 
+        "marketing_start_date": "2011-09-19", 
+        "marketing_stop_date": null, 
+        "price": 16876, 
+        "refund_rate": 100, 
+        "title": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 90 comprimé(s)"
+      }
+    ], 
+    "title": "ANASTROZOLE ACCORD 1 mg, comprimé pelliculé"
+  }, 
+  {
+    "authorization_holder": "Laboratoires SAINT GERMAIN - Société Civile de Recherche", 
+    "cis_code": "6 000 250 4", 
+    "composition": [
+      {
+        "components": {
+          "ranitidine base": "150 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "RANITIDINE (CHLORHYDRATE DE) équivalant à RANITIDINE 150 mg - AZANTAC 150 mg, comprimé effervescent - RANIPLEX 150 mg, comprimé effervescent."
+    ], 
+    "iab": [
+      {
+        "abstract": "Générique de RANIPLEX et/ou AZANTAC, les conclusions s'appliquent.", 
+        "advice": null, 
+        "reason": "Réévaluation du SMR", 
+        "value": "Faible"
+      }, 
+      {
+        "abstract": "Générique de RANIPLEX et/ou AZANTAC, les conclusions s'appliquent.", 
+        "advice": null, 
+        "reason": "Réévaluation du SMR", 
+        "value": "Insuffisant"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60002504, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "332 086-3", 
+          "34009 332 086 3 9"
+        ], 
+        "marketing_start_date": "2003-12-03", 
+        "marketing_stop_date": null, 
+        "price": 1158, 
+        "refund_rate": 15, 
+        "title": "tube(s) polypropylène de 30 comprimé(s)"
+      }
+    ], 
+    "title": "RANITIDINE BIOGARAN 150 mg, comprimé effervescent"
+  }, 
+  {
+    "authorization_holder": "Laboratoire FERRIER", 
+    "cis_code": "6 000 274 6", 
+    "composition": [
+      {
+        "components": {
+          "actaea racemosa pour préparations homéopathiques": "2CH à 30CH et 4DH à 60DH"
+        }, 
+        "quantity": null, 
+        "type": "Granules"
+      }, 
+      {
+        "components": {
+          "actaea racemosa pour préparations homéopathiques": "2CH à 30CH et 4DH à 60DH"
+        }, 
+        "quantity": null, 
+        "type": "Solution buvable en gouttes"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60002746, 
+    "presentations": null, 
+    "title": "ACTAEA RACEMOSA FERRIER, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH"
+  }, 
+  {
+    "authorization_holder": "CHIESI SA", 
+    "cis_code": "6 000 362 0", 
+    "composition": [
+      {
+        "components": {
+          "dipropionate de béclométasone": "800 microgrammes"
+        }, 
+        "quantity": "2 ml de suspension", 
+        "type": "Suspension"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu par les spécialités BECLOSPIN reste important dans l'indication de l'AMM.", 
+        "advice": null, 
+        "reason": "Renouvellement d'inscription (CT)", 
+        "value": "Important"
+      }, 
+      {
+        "abstract": "Le service médical rendu par BECLOSPIN 400 µg/1 ml et 800 µg/2 ml est important.", 
+        "advice": null, 
+        "reason": "Inscription (CT)", 
+        "value": "Important"
+      }
+    ], 
+    "iab_improvements": [
+      {
+        "abstract": "BECLOSPIN 400 µg/1 ml et 800 µg/2 ml n’apporte pas d’amélioration du service médical rendu (niveau V) par rapport à PULMICORT 0,5 mg/2 ml et 1 mg/2 ml.", 
+        "advice": null, 
+        "reason": "Inscription (CT)", 
+        "value": "V (Inexistant)"
+      }
+    ], 
+    "id": 60003620, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "369 635-0", 
+          "34009 369 635 0 4"
+        ], 
+        "marketing_start_date": "2006-11-30", 
+        "marketing_stop_date": null, 
+        "price": 3939, 
+        "refund_rate": 65, 
+        "title": "20 récipient(s) unidose(s) polypropylène de 2 ml"
+      }
+    ], 
+    "title": "BECLOSPIN 800 microgrammes/2 ml, suspension pour inhalation par nébuliseur en récipient unidose"
+  }, 
+  {
+    "authorization_holder": "TEVA SANTE", 
+    "cis_code": "6 000 427 7", 
+    "composition": [
+      {
+        "components": {
+          "fénofibrate": "100,00 mg"
+        }, 
+        "quantity": "une gélule", 
+        "type": "Gélule"
+      }
+    ], 
+    "generic_groups": [
+      "FENOFIBRATE 100 mg - FENOX 100 mg, gélule (cette spécialité était anciennement dénommée LIPANTHYL 100 mg, gélule)."
+    ], 
+    "iab": [
+      {
+        "abstract": "Dans l'attente de la réévaluation des fibrates, le service médical rendu par ces spécialités reste important dans les indications de l'AMM.", 
+        "advice": null, 
+        "reason": "Renouvellement d'inscription (CT)", 
+        "value": "Important"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60004277, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "361 458-2", 
+          "34009 361 458 2 5"
+        ], 
+        "marketing_start_date": "2003-06-11", 
+        "marketing_stop_date": null, 
+        "price": 226, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC aluminium de 30  gélule(s)"
+      }
+    ], 
+    "title": "FENOFIBRATE TEVA 100 mg, gélule"
+  }, 
+  {
+    "authorization_holder": "EG LABO - Laboratoires EuroGenerics", 
+    "cis_code": "6 000 448 7", 
+    "composition": [
+      {
+        "components": {
+          "tramadol base": "200 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "TRAMADOL (CHLORHYDRATE DE) 200 mg - CONTRAMAL L.P. 200 mg, comprimé pelliculé à libération prolongée - TOPALGIC L.P. 200 mg, comprimé à libération prolongée."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60004487, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "397 251-9", 
+          "34009 397 251 9 2"
+        ], 
+        "marketing_start_date": "2011-12-12", 
+        "marketing_stop_date": null, 
+        "price": 1467, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) opaque(s) PVC-Aluminium de 30 comprimé(s)"
+      }
+    ], 
+    "title": "TRAMADOL EG L.P. 200 mg, comprimé à libération prolongée"
+  }, 
+  {
+    "authorization_holder": "EG LABO - Laboratoires EuroGenerics", 
+    "cis_code": "6 000 585 6", 
+    "composition": [
+      {
+        "components": {
+          "famotidine": "20 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "FAMOTIDINE 20 mg - PEPDINE 20 mg, comprimé pelliculé"
+    ], 
+    "iab": [
+      {
+        "abstract": "Générique de PEPDINE, les conclusions s'appliquent : Le service médical rendu par PEPDINE 20 mg, comprimé pelliculé et PEPDINE 40 mg, comprimé pelliculé reste faible dans les indications : « Ulcère duodénal », « Ulcère gastrique bénin », « oesophagite par reflux gastro-oesophagien ».", 
+        "advice": null, 
+        "reason": "Réévaluation du SMR", 
+        "value": "Faible"
+      }, 
+      {
+        "abstract": "Générique de PEPDINE, les conclusions s'appliquent : Le service médical rendu par PEPDINE 20 mg, comprimé pelliculé reste insuffisant dans les indications : « Traitement d'entretien des ulcères duodénaux chez les patients non infectés par Helicobacter pylori ou chez qui l'éradication n'a pas été possible », « Syndrome de Zollinger-Ellison ». Le service médical rendu par PEPDINE 40 mg, comprimé pelliculé reste insuffisant dans l'indication : « Syndrome de Zollinger-Ellison ».", 
+        "advice": null, 
+        "reason": "Réévaluation du SMR", 
+        "value": "Insuffisant"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60005856, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "355 102-5", 
+          "34009 355 102 5 9"
+        ], 
+        "marketing_start_date": "2004-03-25", 
+        "marketing_stop_date": null, 
+        "price": 958, 
+        "refund_rate": 15, 
+        "title": "plaquette(s) thermoformée(s) PVC-aluminium PVDC de 30 comprimé(s)"
+      }
+    ], 
+    "title": "FAMOTIDINE EG 20 mg, comprimé pelliculé"
+  }, 
+  {
+    "authorization_holder": "PFIZER HOLDING FRANCE", 
+    "cis_code": "6 000 624 6", 
+    "composition": [
+      {
+        "components": {
+          "chlorhydrate d'épirubicine": "200 mg"
+        }, 
+        "quantity": "un flacon", 
+        "type": "Solution"
+      }
+    ], 
+    "generic_groups": [
+      "EPIRUBICINE (CHLORHYDRATE D') 200 mg/100 ml - FARMORUBICINE 200 mg/100 ml, solution pour perfusion (FLACON de 100 ml)."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60006246, 
+    "presentations": null, 
+    "title": "FARMORUBICINE 200 mg/100 ml, solution pour perfusion"
+  }, 
+  {
+    "authorization_holder": "MSD France", 
+    "cis_code": "6 000 728 0", 
+    "composition": [
+      {
+        "components": {
+          "tafluprost": "15 microgrammes"
+        }, 
+        "quantity": "1 ml", 
+        "type": "Collyre"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu par cette spécialité est insuffisant pour justifier sa prise en charge par la solidarité nationale.", 
+        "advice": null, 
+        "reason": "Inscription (CT)", 
+        "value": "Insuffisant"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60007280, 
+    "presentations": null, 
+    "title": "SAFLUTAN 15 microgrammes/ml, collyre en solution en récipient unidose"
+  }, 
+  {
+    "authorization_holder": "TEVA SANTE", 
+    "cis_code": "6 000 743 7", 
+    "composition": [
+      {
+        "components": {
+          "atorvastatine": "40 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "ATORVASTATINE CALCIQUE TRIHYDRATEE équivalant à 40 mg ATORVASTATINE  - TAHOR 40 mg, comprimé pelliculé."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60007437, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "494 441-3", 
+          "34009 494 441 3 7"
+        ], 
+        "marketing_start_date": "2012-05-08", 
+        "marketing_stop_date": null, 
+        "price": 185, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) aluminium de 28 comprimé(s)"
+      }, 
+      {
+        "cip_codes": [
+          "494 449-4", 
+          "34009 494 449 4 6"
+        ], 
+        "marketing_start_date": "2012-05-08", 
+        "marketing_stop_date": null, 
+        "price": 5495, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) aluminium de 90 comprimé(s)"
+      }
+    ], 
+    "title": "ATORVASTATINE TEVA SANTE 40 mg, comprimé pelliculé"
+  }, 
+  {
+    "authorization_holder": "Coopération Pharmaceutique Française", 
+    "cis_code": "6 000 796 0", 
+    "composition": [
+      {
+        "components": {
+          "chlorhydrate de lidocaïne": "0,6 g", 
+          "sulfate de zinc": "0,5 g"
+        }, 
+        "quantity": "100 ml", 
+        "type": "Gel"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60007960, 
+    "presentations": null, 
+    "title": "AFTAGEL, gel buccal"
+  }, 
+  {
+    "authorization_holder": "FRESENIUS KABI FRANCE SA", 
+    "cis_code": "6 000 884 5", 
+    "composition": [
+      {
+        "components": {
+          "glucose anhydre": "15 g"
+        }, 
+        "quantity": "100 ml de solution pour perfusion", 
+        "type": "Solution"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60008845, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "323 637-0", 
+          "34009 323 637 0 4"
+        ], 
+        "marketing_start_date": "1964-05-19", 
+        "marketing_stop_date": null, 
+        "price": 243, 
+        "refund_rate": 65, 
+        "title": "1 flacon(s) en verre de 500 ml"
+      }, 
+      {
+        "cip_codes": [
+          "323 638-7", 
+          "34009 323 638 7 2"
+        ], 
+        "marketing_start_date": "1964-05-19", 
+        "marketing_stop_date": null, 
+        "price": 353, 
+        "refund_rate": 65, 
+        "title": "1 flacon(s) en verre de 1000 ml"
+      }
+    ], 
+    "title": "GLUCOSE BIOSEDRA 15 POUR CENT, solution pour perfusion"
+  }, 
+  {
+    "authorization_holder": "EG LABO - Laboratoires EuroGenerics", 
+    "cis_code": "6 000 892 7", 
+    "composition": [
+      {
+        "components": {
+          "rivastigmine base": "1,5 mg"
+        }, 
+        "quantity": "une gélule", 
+        "type": "Gélule"
+      }
+    ], 
+    "generic_groups": [
+      "RIVASTIGMINE (HYDROGENOTARTRATE DE) équivalant à RIVASTIGMINE 1,5 mg - EXELON 1,5 mg, gélule"
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60008927, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "397 872-3", 
+          "34009 397 872 3 7"
+        ], 
+        "marketing_start_date": "2012-08-01", 
+        "marketing_stop_date": null, 
+        "price": 3274, 
+        "refund_rate": 15, 
+        "title": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 56 gélule(s)"
+      }
+    ], 
+    "title": "RIVASTIGMINE EG 1,5 mg, gélule"
+  }, 
+  {
+    "authorization_holder": "TEVA SANTE", 
+    "cis_code": "6 000 961 6", 
+    "composition": [
+      {
+        "components": {
+          "ranitidine base": "300 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "RANITIDINE (CHLORHYDRATE DE) équivalant à RANITIDINE 300 mg - AZANTAC 300 mg, comprimé effervescent - RANIPLEX 300 mg, comprimé effervescent."
+    ], 
+    "iab": [
+      {
+        "abstract": "Générique de RANIPLEX et/ou AZANTAC, les conclusions s'appliquent.", 
+        "advice": null, 
+        "reason": "Réévaluation du SMR", 
+        "value": "Faible"
+      }, 
+      {
+        "abstract": "Générique de RANIPLEX et/ou AZANTAC, les conclusions s'appliquent.", 
+        "advice": null, 
+        "reason": "Réévaluation du SMR", 
+        "value": "Insuffisant"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60009616, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "360 290-0", 
+          "34009 360 290 0 2"
+        ], 
+        "marketing_start_date": "2003-05-27", 
+        "marketing_stop_date": null, 
+        "price": 1068, 
+        "refund_rate": 15, 
+        "title": "tube(s) polypropylène de 14  comprimé(s)"
+      }
+    ], 
+    "title": "RANITIDINE TEVA 300 mg, comprimé effervescent"
+  }, 
+  {
+    "authorization_holder": "Laboratoire  AGUETTANT", 
+    "cis_code": "6 001 016 6", 
+    "composition": [
+      {
+        "components": {
+          "chlorure de sodium": "5,85 g"
+        }, 
+        "quantity": "100 ml", 
+        "type": "Solution"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60010166, 
+    "presentations": null, 
+    "title": "CHLORURE DE SODIUM PROAMP 0,0585 g/ml (5,85%), solution à diluer pour perfusion"
+  }, 
+  {
+    "authorization_holder": "RANBAXY PHARMACIE GENERIQUES", 
+    "cis_code": "6 001 088 5", 
+    "composition": [
+      {
+        "components": {
+          "ciprofloxacine": "250 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "CIPROFLOXACINE (CHLORHYDRATE DE) équivalant à CIPROFLOXACINE 250 mg - CIFLOX 250 mg, comprimé pelliculé sécable."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60010885, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "380 933-4", 
+          "34009 380 933 4 6"
+        ], 
+        "marketing_start_date": "2009-04-14", 
+        "marketing_stop_date": null, 
+        "price": 812, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 12 comprimé(s)"
+      }
+    ], 
+    "title": "CIPROFLOXACINE RANBAXY 250 mg, comprimé pelliculé"
+  }, 
+  {
+    "authorization_holder": "EFFIK", 
+    "cis_code": "6 001 096 7", 
+    "composition": [
+      {
+        "components": {
+          "fenticonazole base": "175,7 mg"
+        }, 
+        "quantity": "une capsule", 
+        "type": "Capsule"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu par les spécialités LOMEXIN 2% crème, LOMEXIN 600 mg capsule molle vaginale et TERLOMEXIN 200 mg capsule molle vaginale reste modéré dans les indications de leurs AMM.", 
+        "advice": null, 
+        "reason": "Renouvellement d'inscription (CT)", 
+        "value": "Modéré"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60010967, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "337 833-1", 
+          "34009 337 833 1 0"
+        ], 
+        "marketing_start_date": "1997-01-19", 
+        "marketing_stop_date": null, 
+        "price": 453, 
+        "refund_rate": 30, 
+        "title": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 3 capsule(s)"
+      }
+    ], 
+    "title": "TERLOMEXIN 200 mg, capsule molle vaginale"
+  }, 
+  {
+    "authorization_holder": "QUALIMED", 
+    "cis_code": "6 001 137 1", 
+    "composition": [
+      {
+        "components": {
+          "fénofibrate": "200 mg"
+        }, 
+        "quantity": "une gélule", 
+        "type": "Gélule"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60011371, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "358 787-9", 
+          "34009 358 787 9 3"
+        ], 
+        "marketing_start_date": null, 
+        "marketing_stop_date": "2011-11-29", 
+        "price": 809, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 30  gélule(s)"
+      }, 
+      {
+        "cip_codes": [
+          "373 853-9", 
+          "34009 373 853 9 8"
+        ], 
+        "marketing_start_date": null, 
+        "marketing_stop_date": "2012-07-17", 
+        "price": 2271, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 90 gélule(s)"
+      }
+    ], 
+    "title": "FENOFIBRATE QUALIMED 200 mg, gélule"
+  }, 
+  {
+    "authorization_holder": "MYLAN SAS", 
+    "cis_code": "6 001 630 8", 
+    "composition": [
+      {
+        "components": {
+          "carvédilol": "25 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "CARVEDILOL 25 mg - KREDEX 25 mg, comprimé sécable."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60016308, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "374 059-4", 
+          "34009 374 059 4 2"
+        ], 
+        "marketing_start_date": "2006-10-30", 
+        "marketing_stop_date": null, 
+        "price": 802, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC-Aluminium de 28 comprimé(s)"
+      }
+    ], 
+    "title": "CARVEDILOL MYLAN 25 mg, comprimé pelliculé sécable"
+  }, 
+  {
+    "authorization_holder": "ARROW GENERIQUES", 
+    "cis_code": "6 001 650 0", 
+    "composition": [
+      {
+        "components": {
+          "candésartan cilexétil": "32 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "CANDESARTAN CILEXETIL 32 mg - ATACAND 32 mg, comprimé sécable - KENZEN 32 mg, comprimé sécable."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60016500, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "221 189-9", 
+          "34009 221 189 9 4"
+        ], 
+        "marketing_start_date": "2012-06-20", 
+        "marketing_stop_date": null, 
+        "price": 1983, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 30 comprimé(s)"
+      }
+    ], 
+    "title": "CANDESARTAN ARROW 32 mg, comprimé sécable"
+  }, 
+  {
+    "authorization_holder": "SIGMA - TAU France", 
+    "cis_code": "6 001 658 9", 
+    "composition": [
+      {
+        "components": {
+          "lévocarnitine": "1000 mg"
+        }, 
+        "quantity": "5 ml", 
+        "type": "Solution"
+      }
+    ], 
+    "generic_groups": [
+      "LEVOCARNITINE 1g/5 ml - LEVOCARNIL 1 g/5 ml, solution injectable en ampoule."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60016589, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "365 712-0", 
+          "34009 365 712 0 4"
+        ], 
+        "marketing_start_date": "2006-02-01", 
+        "marketing_stop_date": null, 
+        "price": 751, 
+        "refund_rate": 65, 
+        "title": "5 ampoule(s) en verre de 5 ml"
+      }
+    ], 
+    "title": "LEVOCARNIL 1 g/5 ml, solution injectable en ampoule"
+  }, 
+  {
+    "authorization_holder": "Laboratoire INNOTECH INTERNATIONAL", 
+    "cis_code": "6 001 736 7", 
+    "composition": [
+      {
+        "components": {
+          "anis vert (fruit d') (poudre de)": "30,0 mg", 
+          "boldo (feuille de) (poudre de)": "50,0 mg", 
+          "cascara (écorce de) (extrait sec de)": "40,0 mg soit 6,4 mg au minimum quantité exprimée en cascaroside A", 
+          "séné (feuille de), extrait sec titré de": "30,0 mg soit 2,1 mg au minimum quantité exprimée en sennosides B"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60017367, 
+    "presentations": null, 
+    "title": "MUCINUM A L'EXTRAIT DE CASCARA, comprimé enrobé"
+  }, 
+  {
+    "authorization_holder": "PFIZER LTD", 
+    "cis_code": "6 001 808 8", 
+    "composition": [
+      {
+        "components": {
+          "prégabaline": "300 mg"
+        }, 
+        "quantity": "une gélule", 
+        "type": "Gélule"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu par LYRICA dans le traitement des douleurs neuropathiques centrales chez l’adulte est important.", 
+        "advice": null, 
+        "reason": "Extension d'indication", 
+        "value": "Important"
+      }
+    ], 
+    "iab_improvements": [
+      {
+        "abstract": "Lyrica n'apporte pas d'amélioration du service médical rendu (ASMR de niveau V) par rapport à la prise en charge habituelle des douleurs neuropathiques centrales de l'adulte.", 
+        "advice": null, 
+        "reason": "Extension d'indication", 
+        "value": "V (Inexistant)"
+      }
+    ], 
+    "id": 60018088, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "365 133-0", 
+          "34009 365 133 0 3"
+        ], 
+        "marketing_start_date": "2006-06-13", 
+        "marketing_stop_date": null, 
+        "price": 7644, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC-Aluminium de 56 gélule(s)"
+      }
+    ], 
+    "title": "LYRICA 300 mg, gélule"
+  }, 
+  {
+    "authorization_holder": "Coopération Pharmaceutique Française", 
+    "cis_code": "6 001 910 1", 
+    "composition": [
+      {
+        "components": {
+          "sodium (cromoglicate de)": "2 g"
+        }, 
+        "quantity": "100 ml", 
+        "type": "Collyre"
+      }
+    ], 
+    "generic_groups": [
+      "CROMOGLICATE DE SODIUM 2 g/100 ml - OPTICRON 2 POUR CENT, collyre."
+    ], 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu par ces spécialités reste modéré dans les affections oculaires d'origine allergique.", 
+        "advice": null, 
+        "reason": "Renouvellement d'inscription (CT)", 
+        "value": "Modéré"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60019101, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "320 298-0", 
+          "34009 320 298 0 8"
+        ], 
+        "marketing_start_date": "1979-02-19", 
+        "marketing_stop_date": null, 
+        "price": 332, 
+        "refund_rate": 30, 
+        "title": "1 flacon(s) polyéthylène de 5  ml"
+      }
+    ], 
+    "title": "OPTICRON 2 POUR CENT, collyre"
+  }, 
+  {
+    "authorization_holder": "BOIRON SA", 
+    "cis_code": "6 001 935 0", 
+    "composition": [
+      {
+        "components": {
+          "arnica montana pour préparations homéopathiques": "7 g (Teinture mère)"
+        }, 
+        "quantity": "100 g", 
+        "type": "Gel"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60019350, 
+    "presentations": null, 
+    "title": "ARNIGEL, gel"
+  }, 
+  {
+    "authorization_holder": "SANOFI AVENTIS FRANCE", 
+    "cis_code": "6 001 992 7", 
+    "composition": [
+      {
+        "components": {
+          "amisulpride": "100 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "AMISULPRIDE 100 mg - SOLIAN 100 mg, comprimé sécable"
+    ], 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu de SOLIAN dans le traitement de la schizophrénie reste important.", 
+        "advice": null, 
+        "reason": "Réévaluation SMR et ASMR", 
+        "value": "Important"
+      }
+    ], 
+    "iab_improvements": [
+      {
+        "abstract": "SOLIAN comme tous les autres antipsychotiques (y compris les antipsychotiques de première génération) apporte une amélioration du service médical rendu modérée (ASMR III) dans la prise en charge de la schizophrénie.", 
+        "advice": null, 
+        "reason": "Réévaluation SMR et ASMR", 
+        "value": "III (Modéré)"
+      }
+    ], 
+    "id": 60019927, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "348 747-4", 
+          "34009 348 747 4 1"
+        ], 
+        "marketing_start_date": "1999-05-25", 
+        "marketing_stop_date": null, 
+        "price": 1334, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC-aluminium de 30 comprimé(s)"
+      }
+    ], 
+    "title": "SOLIAN 100 mg, comprimé sécable"
+  }, 
+  {
+    "authorization_holder": "MYLAN SAS", 
+    "cis_code": "6 002 112 7", 
+    "composition": [
+      {
+        "components": {
+          "spironolactone": "75,00 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "SPIRONOLACTONE 75 mg - ALDACTONE 75 mg, comprimé sécable."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60021127, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "349 681-7", 
+          "34009 349 681 7 4"
+        ], 
+        "marketing_start_date": "2000-03-13", 
+        "marketing_stop_date": null, 
+        "price": 676, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC aluminium de 30 comprimé(s)"
+      }
+    ], 
+    "title": "SPIRONOLACTONE MYLAN 75 mg, comprimé pelliculé"
+  }, 
+  {
+    "authorization_holder": "BOEHRINGER INGELHEIM FRANCE", 
+    "cis_code": "6 002 121 6", 
+    "composition": [
+      {
+        "components": {
+          "dipyridamole": "75 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu par la spécialité PERSANTINE 10 mg/2 ml, solution injectable, ampoule est faible dans l'indication de l'AMM.", 
+        "advice": null, 
+        "reason": "Réévaluation du SMR", 
+        "value": "Faible"
+      }, 
+      {
+        "abstract": "Le service médical rendu par la spécialité PERSANTINE 75 mg, comprimé enrobé est insuffisant dans l'ensemble des indications de l'AMM.", 
+        "advice": null, 
+        "reason": "Réévaluation du SMR", 
+        "value": "Insuffisant"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60021216, 
+    "presentations": null, 
+    "title": "PERSANTINE 75 mg, comprimé enrobé"
+  }, 
+  {
+    "authorization_holder": "PIERRE FABRE DERMATOLOGIE", 
+    "cis_code": "6 002 131 2", 
+    "composition": [
+      {
+        "components": {
+          "propionate de clobétasol": "500 microgrammes"
+        }, 
+        "quantity": "1 g de mousse", 
+        "type": "Mousse"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "La Commission considère que le service médical rendu par CLARELUX mousse est important dans l'indication de l'AMM.", 
+        "advice": null, 
+        "reason": "Inscription (CT)", 
+        "value": "Important"
+      }
+    ], 
+    "iab_improvements": [
+      {
+        "abstract": "CLARELUX n'apporte pas d'amélioration du service médical rendu (ASMR V) par rapport à CLOBEX, shampooing dans le traitement de courte durée des dermatoses du cuir chevelu sensibles aux corticoïdes, telles que le psoriasis, ne répondant pas de manière satisfaisante à des corticoïdes moins puissants.", 
+        "advice": null, 
+        "reason": "Inscription (CT)", 
+        "value": "V (Inexistant)"
+      }
+    ], 
+    "id": 60021312, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "216 582-8", 
+          "34009 216 582 8 6"
+        ], 
+        "marketing_start_date": "2013-03-27", 
+        "marketing_stop_date": null, 
+        "price": 1467, 
+        "refund_rate": 65, 
+        "title": "1 flacon(s) aluminium de 100 g"
+      }
+    ], 
+    "title": "CLARELUX 500 microgrammes/g, mousse pour application cutanée en flacon pressurisé"
+  }, 
+  {
+    "authorization_holder": "SANDOZ", 
+    "cis_code": "6 002 147 2", 
+    "composition": [
+      {
+        "components": {
+          "midazolam": "1 mg"
+        }, 
+        "quantity": "1 ml de solution injectable", 
+        "type": "Solution"
+      }
+    ], 
+    "generic_groups": [
+      "MIDAZOLAM (CHLORHYDRATE DE) équivalant à MIDAZOLAM 1 mg/ml - HYPNOVEL 1 mg/ml, solution injectable."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60021472, 
+    "presentations": null, 
+    "title": "MIDAZOLAM SANDOZ 1 mg/ml, solution injectable"
+  }, 
+  {
+    "authorization_holder": "BOUCHARA-RECORDATI", 
+    "cis_code": "6 002 227 5", 
+    "composition": [
+      {
+        "components": {
+          "trinitrine": "15,70 mg"
+        }, 
+        "quantity": "un dispositif", 
+        "type": "Dispositif"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu par EPINITRIL reste important dans l’indication de l’AMM.", 
+        "advice": "Avis du 17/04/2013", 
+        "reason": "Renouvellement d'inscription (CT)", 
+        "value": "Important"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60022275, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "358 988-4", 
+          "34009 358 988 4 5"
+        ], 
+        "marketing_start_date": "2003-04-16", 
+        "marketing_stop_date": null, 
+        "price": 1434, 
+        "refund_rate": 65, 
+        "title": "30 sachet(s) papier polyéthylène aluminium P-A-M-éthylène (SURLYN) de 1  dispositif(s)"
+      }
+    ], 
+    "title": "EPINITRIL 5 mg/24 heures, dispositif transdermique"
+  }, 
+  {
+    "authorization_holder": "RANBAXY PHARMACIE GENERIQUES", 
+    "cis_code": "6 002 273 8", 
+    "composition": [
+      {
+        "components": {
+          "fentanyl": "15,5 mg"
+        }, 
+        "quantity": "un dispositif", 
+        "type": "Dispositif"
+      }
+    ], 
+    "generic_groups": [
+      "FENTANYL 75 microgrammes/heure - DUROGESIC 75 microgrammes/heure, dispositif transdermique."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60022738, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "492 173-1", 
+          "34009 492 173 1 1"
+        ], 
+        "marketing_start_date": "2013-07-18", 
+        "marketing_stop_date": null, 
+        "price": 452, 
+        "refund_rate": 65, 
+        "title": "5 sachet(s) polyester aluminium P-A-M-éthylène (SURLYN) avec fermeture de sécurité enfant de 1 dispositif(s)"
+      }
+    ], 
+    "title": "FENTANYL RANBAXY 75 microgrammes/heure, dispositif transdermique"
+  }, 
+  {
+    "authorization_holder": "BRISTOL - MYERS SQUIBB", 
+    "cis_code": "6 002 540 3", 
+    "composition": [
+      {
+        "components": {
+          "paracétamol": "1000 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60025403, 
+    "presentations": null, 
+    "title": "EFFERALGANTAB 1 g, comprimé pelliculé"
+  }, 
+  {
+    "authorization_holder": "TEVA SANTE", 
+    "cis_code": "6 002 695 7", 
+    "composition": [
+      {
+        "components": {
+          "glibenclamide": "5 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "GLIBENCLAMIDE 5 mg - DAONIL 5 mg, comprimé sécable."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60026957, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "368 209-8", 
+          "34009 368 209 8 2"
+        ], 
+        "marketing_start_date": "2005-11-24", 
+        "marketing_stop_date": null, 
+        "price": 235, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC-Aluminium de 20 comprimé(s)"
+      }, 
+      {
+        "cip_codes": [
+          "370 162-5", 
+          "34009 370 162 5 4"
+        ], 
+        "marketing_start_date": "2006-03-14", 
+        "marketing_stop_date": null, 
+        "price": 678, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC-Aluminium de 90 comprimé(s)"
+      }, 
+      {
+        "cip_codes": [
+          "387 533-1", 
+          "34009 387 533 1 8"
+        ], 
+        "marketing_start_date": "2008-11-25", 
+        "marketing_stop_date": null, 
+        "price": 1239, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC-Aluminium de 180 comprimé(s)"
+      }
+    ], 
+    "title": "GLIBENCLAMIDE TEVA 5 mg, comprimé sécable"
+  }, 
+  {
+    "authorization_holder": "RANBAXY PHARMACIE GENERIQUES", 
+    "cis_code": "6 002 805 0", 
+    "composition": [
+      {
+        "components": {
+          "gabapentine": "400 mg"
+        }, 
+        "quantity": "une gélule", 
+        "type": "Gélule"
+      }
+    ], 
+    "generic_groups": [
+      "GABAPENTINE 400 mg - NEURONTIN 400 mg, gélule."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60028050, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "382 649-1", 
+          "34009 382 649 1 3"
+        ], 
+        "marketing_start_date": "2011-04-11", 
+        "marketing_stop_date": null, 
+        "price": 3209, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) PVC-Aluminium PVDC de 90 gélule(s)"
+      }
+    ], 
+    "title": "GABAPENTINE RANBAXY 400 mg, gélule"
+  }, 
+  {
+    "authorization_holder": "SANOFI AVENTIS FRANCE", 
+    "cis_code": "6 002 849 5", 
+    "composition": [
+      {
+        "components": {
+          "chlorhydrate de pseudoéphédrine": "30 mg", 
+          "paracétamol": "500 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé jour"
+      }, 
+      {
+        "components": {
+          "hydrogénosuccinate de doxylamine": "7,5 mg", 
+          "paracétamol": "500 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé nuit"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60028495, 
+    "presentations": null, 
+    "title": "DOLIRHUMEPRO PARACETAMOL, PSEUDOEPHEDRINE ET DOXYLAMINE, comprimé"
+  }, 
+  {
+    "authorization_holder": "Laboratoire GLAXOSMITHKLINE", 
+    "cis_code": "6 002 855 2", 
+    "composition": [
+      {
+        "components": {
+          "bésilate d'atracurium": "25 mg"
+        }, 
+        "quantity": "une ampoule", 
+        "type": "Solution"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60028552, 
+    "presentations": null, 
+    "title": "TRACRIUM 25 mg/2,5 ml (1 POUR CENT), solution injectable en ampoule"
+  }, 
+  {
+    "authorization_holder": "Laboratoire WELEDA", 
+    "cis_code": "6 002 868 0", 
+    "composition": [
+      {
+        "components": {
+          "calcarea iodata pour préparations homéopathiques": "3CH à 30CH et 5DH à 60DH"
+        }, 
+        "quantity": null, 
+        "type": "Granules"
+      }, 
+      {
+        "components": {
+          "calcarea iodata pour préparations homéopathiques": "3CH à 30CH et 5DH à 60DH"
+        }, 
+        "quantity": null, 
+        "type": "Poudre orale"
+      }, 
+      {
+        "components": {
+          "calcarea iodata pour préparations homéopathiques": "3CH à 30CH et 5DH à 60DH"
+        }, 
+        "quantity": null, 
+        "type": "Solution buvable en gouttes"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60028680, 
+    "presentations": null, 
+    "title": "CALCAREA IODATA WELEDA, degré de dilution compris entre 3CH et 30CH ou entre 5DH et 60DH"
+  }, 
+  {
+    "authorization_holder": "Laboratoires MEDIFLOR", 
+    "cis_code": "6 003 098 0", 
+    "composition": [
+      {
+        "components": {
+          "séné (feuille de)": "0,72 g"
+        }, 
+        "quantity": "un sachet-dose de 1,8 g", 
+        "type": "Mélange de plantes"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60030980, 
+    "presentations": null, 
+    "title": "MEDIFLOR N°7 CONTRE LA CONSTIPATION PASSAGERE, mélange de plantes pour tisane en sachet-dose"
+  }, 
+  {
+    "authorization_holder": "BB FARMA SRL", 
+    "cis_code": "6 003 152 7", 
+    "composition": [
+      {
+        "components": {
+          "pantoprazole": "20 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60031527, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "490 115-4", 
+          "34009 490 115 4 4"
+        ], 
+        "marketing_start_date": "2013-06-03", 
+        "marketing_stop_date": null, 
+        "price": 1358, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) thermoformée(s) aluminium de 28 comprimé(s)"
+      }
+    ], 
+    "title": "EUPANTOL 20 mg, comprimé gastro-résistant"
+  }, 
+  {
+    "authorization_holder": "EVOLUPHARM", 
+    "cis_code": "6 003 195 4", 
+    "composition": [
+      {
+        "components": {
+          "périndopril": "6,68 mg"
+        }, 
+        "quantity": "un comprimé", 
+        "type": "Comprimé"
+      }
+    ], 
+    "generic_groups": [
+      "PERINDOPRIL TERT-BUTYLAMINE 8 mg, équivalant à 6,73 mg de PERINDOPRIL - PERINDOPRIL SERVIER 8 mg, comprimé - PERINDOPRIL ARGININE 10 mg, équivalant à 6,73 mg de PERINDOPRIL - COVERSYL 10 mg, comprimé pelliculé."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60031954, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "216 940-1", 
+          "34009 216 940 1 7"
+        ], 
+        "marketing_start_date": "2013-08-08", 
+        "marketing_stop_date": null, 
+        "price": 2042, 
+        "refund_rate": 65, 
+        "title": "plaquette(s) formée(s) à froid aluminium de 30 comprimé(s)"
+      }
+    ], 
+    "title": "PERINDOPRIL EVOLUGEN 8 mg, comprimé"
+  }, 
+  {
+    "authorization_holder": "MYLAN SAS", 
+    "cis_code": "6 003 351 0", 
+    "composition": [
+      {
+        "components": {
+          "vancomycine base": "125 mg"
+        }, 
+        "quantity": "un lyophilisat", 
+        "type": "Poudre"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60033510, 
+    "presentations": null, 
+    "title": "VANCOMYCINE MYLAN 125 mg, poudre pour solution pour perfusion"
+  }, 
+  {
+    "authorization_holder": "VIROPHARMA SPRL", 
+    "cis_code": "6 003 408 5", 
+    "composition": [
+      {
+        "components": {
+          "midazolam": "10 mg"
+        }, 
+        "quantity": "2 ml de solution", 
+        "type": "Solution"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "le service médical rendu par ces spécialités est important", 
+        "advice": null, 
+        "reason": "Inscription (CT)", 
+        "value": "Important"
+      }
+    ], 
+    "iab_improvements": [
+      {
+        "abstract": "BUCCOLAM apporte une amélioration du service médical rendu de niveau IV dans la prise en charge des crises convulsives aiguës prolongées de l'enfant et de l'adolescent souffrant d'épilepsie compte-tenu de son administration par voie buccale et de sa présentation sous forme de seringues préremplies prêtes à l'emploi.", 
+        "advice": null, 
+        "reason": "Inscription (CT)", 
+        "value": "IV (Mineur)"
+      }
+    ], 
+    "id": 60034085, 
+    "presentations": null, 
+    "title": "BUCCOLAM 10 mg, solution buccale"
+  }, 
+  {
+    "authorization_holder": "DEFIANTE FARMACEUTICA SA", 
+    "cis_code": "6 003 464 4", 
+    "composition": [
+      {
+        "components": {
+          "tétracosactide": "1,00 mg", 
+          "zinc (chlorure de)": "2,50 mg"
+        }, 
+        "quantity": "1 ml de suspension injectable I.M.", 
+        "type": "Suspension"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": [
+      {
+        "abstract": "Le service médical rendu par SYNACTHENE et SYNACTHENE RETARD reste important dans les indications de l’AMM.", 
+        "advice": null, 
+        "reason": "Renouvellement d'inscription (CT)", 
+        "value": "Important"
+      }, 
+      {
+        "abstract": "Le service médical rendu par ces spécialités reste important dans les indications de l'AMM.", 
+        "advice": null, 
+        "reason": "Renouvellement d'inscription (CT)", 
+        "value": "Important"
+      }
+    ], 
+    "iab_improvements": null, 
+    "id": 60034644, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "310 258-6", 
+          "34009 310 258 6 3"
+        ], 
+        "marketing_start_date": "1969-01-19", 
+        "marketing_stop_date": null, 
+        "price": 508, 
+        "refund_rate": 65, 
+        "title": "1 ampoule(s) en verre de 1 ml"
+      }
+    ], 
+    "title": "SYNACTHENE RETARD 1 mg/1 ml, suspension injectable I.M."
+  }, 
+  {
+    "authorization_holder": "BIOGARAN", 
+    "cis_code": "6 003 493 6", 
+    "composition": [
+      {
+        "components": {
+          "kétoconazole": "120 mg"
+        }, 
+        "quantity": "un sachet-dose 6 g", 
+        "type": "Gel"
+      }
+    ], 
+    "generic_groups": [
+      "KETOCONAZOLE 2 % - KETODERM 2 %, gel en sachet-dose."
+    ], 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60034936, 
+    "presentations": [
+      {
+        "cip_codes": [
+          "384 157-9", 
+          "34009 384 157 9 7"
+        ], 
+        "marketing_start_date": "2009-03-17", 
+        "marketing_stop_date": null, 
+        "price": 756, 
+        "refund_rate": 30, 
+        "title": "8 sachet(s)-dose(s) polytéréphtalate (PET) aluminium polyéthylène de 6 g"
+      }
+    ], 
+    "title": "KETOCONAZOLE BIOGARAN 2 %, gel en sachet-dose"
+  }, 
+  {
+    "authorization_holder": "BOEHRINGER INGELHEIM FRANCE", 
+    "cis_code": "6 003 546 1", 
+    "composition": [
+      {
+        "components": {
+          "chlorhydrate d'ambroxol": "20 mg"
+        }, 
+        "quantity": "une pastille", 
+        "type": "Pastille"
+      }
+    ], 
+    "generic_groups": null, 
+    "iab": null, 
+    "iab_improvements": null, 
+    "id": 60035461, 
+    "presentations": null, 
+    "title": "LYSOPAÏNE MAUX DE GORGE AMBROXOL CITRON 20 mg sans sucre, pastille édulcorée au sorbitol et au sucralose"
+  }
+]
