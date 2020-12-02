@@ -5,7 +5,7 @@ import json, os, django
 os.environ["DJANGO_SETTINGS_MODULE"] = "Datamed_Dashboard_Django.settings"
 django.setup()
 
-from bdpm.models import CompositionType
+from bdpm.models import CompositionType, Component, Composition
 
 FILE = "../Ressources/bdpm_partial.json"
 DETAILED_LOG = True
@@ -23,7 +23,8 @@ class ReportValues:
         print_value = ""
         print_value += self.name+ " : \n"
         print_value +="Total added : "+str(self.total_added)+"\n"
-        print_value +="Existing occurrences : "+str(self.existing_occurrences)+"\n"
+        total_iterated = self.existing_occurrences + self.total_added
+        print_value +="For a total of " + str(total_iterated) + " objects \n"
         return str(print_value)
 
     def __repr__(self):
@@ -108,15 +109,40 @@ with open(FILE, "r", encoding='utf8') as read_file:
         detailed_log(str(len(med["composition"]))+" compositions to load, iterating :")
         for composition in med["composition"]:
             ##### Composition type object
-            check_and_create(
+            id_composition_type = check_and_create(
                 django_object = CompositionType,
                 id_field_dict = {"name" : composition["type"]},
                 all_fields_dict = {"name" : composition["type"]},
                 log_list= report_values,
                 log_object_name="Composition types",
             )
+            print("################")
+            detailed_log(str(len(composition["components"].keys())) + "components to load, iterating :")
+            ##### Components Objects : make a list of objects
+            list_id_components = []
+            for component, dosage in composition["components"].items():
+                detailed_log("Found "+component)
+                print(component)
+                print(dosage)
+                list_id_components.append(
+                    check_and_create(
+                        django_object=Component,
+                        id_field_dict={"name": component},
+                        all_fields_dict={"name": component},
+                        log_list=report_values,
+                        log_object_name="Components",
+                    )
+                )
+            print("-------------")
 
-            ### Compositon object
+            ### Composition object
+            Composition.objects.create(
+                components=,
+                quantity = ,
+                type = ,
+                specialty =
+            )
+
 
 
 
