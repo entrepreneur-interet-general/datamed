@@ -1,0 +1,37 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Dashboard</h1>
+  <mat-grid-list cols="{{ ( cardLayout | async )?.columns }}" rowHeight="200px">
+   <!--Mini Cards-->
+   <mat-grid-tile *ngFor="let i of [1, 2, 3, 4]" [colspan]="( cardLayout | async )?.miniCard.cols"
+     [rowspan]="( cardLayout | async )?.miniCard.rows">
+     <app-card title="Card {{i}}"><div>Mini Card Content Here</div></app-card>
+   </mat-grid-tile>
+   <!--Charts-->
+   <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
+       <app-card title="Causes des ruptures">
+           <app-bar-cause-rupture></app-bar-cause-rupture>
+       </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
+       <app-card title="Classification des ruptures">
+           <app-radar-classification></app-radar-classification>
+       </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
+       <app-card title="Ruptures par labo">
+           <app-pie-labos></app-pie-labos>
+       </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
+       <app-card title="Ruptures par classe thérapeutique">
+           <app-bar-classe-therapeutique></app-bar-classe-therapeutique>
+       </app-card>
+    </mat-grid-tile>
+   <!--Table-->
+   <mat-grid-tile [colspan]="( cardLayout | async )?.table.cols" [rowspan]="( cardLayout | async )?.table.rows">
+     <app-card title="Vue d'ensemble des ruptures">
+      <app-tableau-ruptures></app-tableau-ruptures>
+     </app-card>
+   </mat-grid-tile>
+ </mat-grid-list>
+</div>
