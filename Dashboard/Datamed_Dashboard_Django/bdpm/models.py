@@ -35,10 +35,10 @@ class Component(models.Model):
 
 # Med contains multiple compositions if different type of compo in same med (ex : dolirhume jour / dolirhume nuit)
 class Composition(models.Model):
-components = models.ManyToManyField(Component, through='ComponentRelation')
-quantity = models.CharField(max_length=1024)
-type = models.ForeignKey(CompositionType, on_delete=models.PROTECT)
-specialty = models.ForeignKey(Specialty, on_delete=models.PROTECT)
+    components = models.ManyToManyField(Component, through='ComponentRelation')
+    quantity = models.CharField(max_length=1024)
+    type = models.ForeignKey(CompositionType, on_delete=models.PROTECT)
+    specialty = models.ForeignKey(Specialty, on_delete=models.PROTECT)
 
 
 class ComponentRelation(models.Model):

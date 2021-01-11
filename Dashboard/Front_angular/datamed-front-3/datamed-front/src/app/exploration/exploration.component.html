@@ -1,0 +1,26 @@
+<p>exploration works!</p>
+
+<p-table [value]="rsData"
+   [paginator]="true"
+   [rows]="10"
+   sortMode="multiple">
+    <ng-template pTemplate="header">
+        <tr>
+          <th *ngFor="let col of columns" [pSortableColumn]="col.field" pSortableColumnDisabled="true">
+              {{col.header}}
+              <p-sortIcon [field]="col.field"></p-sortIcon>
+          </th>
+
+            <th pSortableColumn="nom" >Nom <p-sortIcon field="nom"></p-sortIcon></th>
+            <th pSortableColumn="nom_laboratoire" >Labo <p-sortIcon field="nom_laboratoire"></p-sortIcon></th>
+            <th pSortableColumn="dci" >DCI <p-sortIcon field="dci"></p-sortIcon></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rsItem>
+        <tr>
+            <td>{{rsItem.nom}}</td>
+            <td>{{rsItem.nom_laboratoire}}</td>
+            <td>{{rsItem.dci}}</td>
+        </tr>
+    </ng-template>
+</p-table>

@@ -1,1 +1,12 @@
-<p>nav works!</p>
+<p-menubar [model]="items" styleClass="menu-top">
+  <ng-template pTemplate="start">
+    <img src="assets/images/logo_republique.png" />
+    <img class="logo-txt" src="assets/images/data.medicaments.gouv.fr.png" />
+  </ng-template>
+  <ng-template pTemplate="end">
+    <button pButton pRipple type="button"
+      label="CONTACT"
+      class="p-button-raised p-button-help p-button-text">
+    </button>
+  </ng-template>
+</p-menubar>
