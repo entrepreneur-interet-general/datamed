@@ -37,5 +37,9 @@ export class ExplorationComponent implements OnInit {
     );
   }
 
+  getDispo(rsItem){
+    return {text: "Rupture", class: "state-rupture"}
+  }
+
 
 }

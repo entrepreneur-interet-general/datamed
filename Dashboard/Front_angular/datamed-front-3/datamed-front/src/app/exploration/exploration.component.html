@@ -10,17 +10,21 @@
               {{col.header}}
               <p-sortIcon [field]="col.field"></p-sortIcon>
           </th>
-
+            <th>Disponibilité</th>
             <th pSortableColumn="nom" >Nom <p-sortIcon field="nom"></p-sortIcon></th>
             <th pSortableColumn="nom_laboratoire" >Labo <p-sortIcon field="nom_laboratoire"></p-sortIcon></th>
             <th pSortableColumn="dci" >DCI <p-sortIcon field="dci"></p-sortIcon></th>
+            <th pSortableColumn="circuit_en_rupture" >Circuit en rupture <p-sortIcon field="circuit_en_rupture"></p-sortIcon></th>
+
         </tr>
     </ng-template>
     <ng-template pTemplate="body" let-rsItem>
         <tr>
+            <td><div class="rupture-status {{getDispo(rsItem).class}}">{{getDispo(rsItem).text}}</div></td>
             <td>{{rsItem.nom}}</td>
             <td>{{rsItem.nom_laboratoire}}</td>
             <td>{{rsItem.dci}}</td>
+            <td>{{rsItem.circuit_en_rupture}}</td>
         </tr>
     </ng-template>
 </p-table>

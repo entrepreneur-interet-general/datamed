@@ -1,0 +1,18 @@
+.rupture-status{
+  padding : 7px;
+  border : 1px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.state-rupture{
+  color: #F03738;
+  border-color:#F03748;
+}
+
+.state-rupture::before{
+  content:url('../../assets/images/explo/ruptures/icon-rupture.png');
+  margin-right:10px;
+  vertical-align:middle;
+}
